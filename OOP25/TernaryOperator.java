@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class TernaryOperatorDemo {
+public class TernaryOperator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int firstNumber, secondNumber;
@@ -9,9 +9,9 @@ public class TernaryOperatorDemo {
         secondNumber = sc.nextInt();
         int bigNumber;
         bigNumber = firstNumber > secondNumber ? firstNumber : secondNumber;
-        System.out.println("I am " + bigNumber + ", the Big Number");
+        System.out.println("The bigger number is: " + bigNumber);
+        sc.close();
     }
 }
 
-    
-}
+
